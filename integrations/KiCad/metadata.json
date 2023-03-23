@@ -1,0 +1,63 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Freerouting",
+  "description": "Freerouting KiCad integration",
+  "description_full": "This is the official KiCad integration for Freerouting, an advanced autorouter.\nIt needs Java JRE 17, download it from https://adoptium.net/temurin/releases .\n",
+  "identifier": "app.freerouting.kicad-plugin",
+  "type": "plugin",
+  "author": {
+    "name": "Andras Fuchs",
+    "contact": {
+      "email": "info@freerouting.app",
+      "web": "https://www.freerouting.app/"
+    }
+  },
+  "maintainer": {
+    "name": "Andras Fuchs",
+    "contact": {
+      "email": "info@freerouting.app"
+    }
+  },
+  "license": "GPL-3.0",
+  "resources": {
+    "Github": "https://github.com/freerouting/freerouting/tree/master/integrations/KiCad"
+  },
+  "versions": [
+    {
+      "version": "1.6.2",
+      "status": "stable",
+      "kicad_version": "6.0",
+      "download_sha256": "a72f4e5b5cedfee3ecea474315e6fc94e11fcb5480dc77a944dfe67fb2e96367",
+      "download_size": 4095649,
+      "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.2.zip",
+      "install_size": 4526306
+    },
+	{
+      "version": "1.6.5",
+      "status": "stable",
+      "kicad_version": "6.0",
+      "download_sha256": "8eccd96f48a5f9f77b2e9c33a9fbcc99c6b12c11fdedb4d19356b7a1216497f7",
+      "download_size": 4301604,
+      "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.5.zip",
+      "install_size": 4793969
+    },
+	{
+      "version": "1.6.6",
+      "status": "stable",
+      "kicad_version": "6.0",
+      "download_sha256": "5b7b92448851e982dc31d54c344b6bc74e08e109ef67beae83f321aa50ffab58",
+      "download_size": 4303331,
+      "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.6.6.zip",
+      "install_size": 4796646
+    },
+	{
+      "version": "1.7.0",
+      "status": "stable",
+      "kicad_version": "6.0",
+      "download_sha256": "d737320dcc835c53975d5d4cbb99afe8e05ed015f41858d350ccffbc456cb424",
+      "download_size": 4304240,
+      "download_url": "https://github.com/freerouting/freerouting/raw/master/integrations/KiCad/kicad-freerouting-1.7.0.zip",
+      "install_size": 4797408
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+
+(session Test
+  (base_design Test)
+  (placement
+    (resolution mil 1000)
+    (component u1
+      (place u1 0 0 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 1000)
+    (parser
+    )
+    (library_out 
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via1
+        (shape
+          (circle 1 2400 0 0)
+        )
+        (shape
+          (circle 2 2400 0 0)
+        )
+        (shape
+          (circle 21 2400 0 0)
+        )
+        (shape
+          (circle 22 2400 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+      (padstack via0
+        (shape
+          (circle 1 2402 0 0)
+        )
+        (shape
+          (circle 2 2402 0 0)
+        )
+        (shape
+          (circle 21 2402 0 0)
+        )
+        (shape
+          (circle 22 2402 0 0)
+        )
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path 2 1000
+            50354 -27854
+            46665 -27854
+          )
+        )
+        (via via0 46665 -27854
+        )
+        (wire
+          (path 1 1000
+            46665 -27854
+            50354 -27854
+          )
+          (type protect)
+        )
+        (wire
+          (path 1 1000
+            30354 -23730
+            34479 -27854
+            46665 -27854
+          )
+          (type protect)
+        )
+        (wire
+          (path 1 1000
+            30354 -23730
+            25853 -23730
+          )
+        )
+        (wire
+          (path 1 1000
+            15274 -26260
+            23323 -26260
+            25853 -23730
+          )
+        )
+      )
+      (net DC_5V0
+        (wire
+          (path 1 1000
+            30354 -50000
+            24593 -50000
+            16634 -57959
+          )
+        )
+        (via via1 30354 -50000
+          (type protect)
+        )
+        (wire
+          (path 1 1000
+            30354 -50000
+            30354 -36270
+          )
+          (type protect)
+        )
+        (wire
+          (path 2 1000
+            29074 -57959
+            29074 -51280
+            30354 -50000
+          )
+          (type protect)
+        )
+      )
+      (net LED5_2
+        (wire
+          (path 1 1000
+            16634 -62041
+            16634 -62736
+            14652 -64718
+            13054 -64718
+            8650 -60314
+            8650 -50000
+          )
+        )
+      )
+      (net R13_2
+        (wire
+          (path 1 1000
+            5434 -30000
+            8994 -30000
+          )
+        )
+        (wire
+          (path 1 1000
+            12059 -50000
+            12059 -36625
+            8994 -33560
+            8994 -30000
+          )
+        )
+      )
+    )
+  )
+)

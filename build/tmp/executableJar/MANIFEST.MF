@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: app.freerouting
+Built-By: LUXHUGO
+Created-By: 17.0.6 (Eclipse Adoptium 17.0.6+10)
+Build-Date: 2023-03-08
+Build-Time: 12:00:41.240+0900
+Build-Revision: ec84494e3978da4d4bc55e00bd4ddf5e1a795c90
+Specification-Title: freerouting
+Specification-Version: unspecified
+Implementation-Title: freerouting
+Implementation-Version: unspecified
+Main-Class: app.freerouting.gui.MainApplication
+
